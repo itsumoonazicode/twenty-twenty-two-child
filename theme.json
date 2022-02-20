@@ -1,0 +1,14 @@
+{
+	"version": 2,
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "メイリオ",
+					"name": "メイリオ",
+					"slug": "meiryo"
+				}
+			]
+		}
+	}
+}
