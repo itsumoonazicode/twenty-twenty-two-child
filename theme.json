@@ -1,14 +1,32 @@
 {
+	"$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/theme.json",
 	"version": 2,
 	"settings": {
 		"typography": {
 			"fontFamilies": [
 				{
-					"fontFamily": "メイリオ",
-					"name": "メイリオ",
-					"slug": "meiryo"
+					"fontFamily": "\"Helvetica Neue\",Arial,\"Hiragino Kaku Gothic ProN\",\"Hiragino Sans\",\"BIZ UDPGothic\",Meiryo,sans-serif",
+					"name": "System Font",
+					"slug": "system-font"
+				},
+				{
+					"fontFamily": "\"Potta One\",cursive",
+					"name": "Potta One",
+					"slug": "potta-one"
 				}
 			]
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/post-title": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--potta-one)",
+					"fontWeight": "300",
+					"lineHeight": "var(--wp--custom--typography--line-height--tiny)",
+					"fontSize": "var(--wp--custom--typography--font-size--gigantic)"
+				}
+			}
 		}
 	}
 }
